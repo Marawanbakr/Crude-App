@@ -1,0 +1,80 @@
+:root 
+{
+    --main--color:#ff9800;
+}
+.option-box
+{
+  padding: 10px;
+  text-align: center;
+  background-color:#EEE;
+  margin: 1px 0px;
+}
+.option-box h4
+{
+  margin: 0;
+  color:#666;
+  font-size: 30px;
+}
+.option-box .colors-list
+{
+   list-style:none ;
+   text-align: center;
+   padding:0;
+   margin: -7px 0px -5px;
+}
+.option-box .colors-list li
+{
+  width: 24px;
+  height: 24px;
+  background-color: rgba(22, 20, 22, 0.082);
+  cursor: pointer;
+  display: inline-block;
+  border:3px solid #fff
+  
+}
+.option-box .colors-list li.active
+{
+    border:2px solid rgb(126, 118, 120);
+    margin:5px 0 ;
+}
+.option-box .colors-list li:first-child
+{
+    background-color:#FF9800;
+    border-radius:20px;
+    margin: 19px 4px;
+
+}
+.option-box .colors-list li:nth-child(2)
+{
+    background-color:#e91e63;
+    border-radius:20px
+
+}
+.option-box .colors-list li:nth-child(3)
+{
+    background-color:#c54ac5;
+    border-radius:20px
+
+}
+.option-box .colors-list li:nth-child(4)
+{
+    background-color:#676776;
+    border-radius:20px
+
+}
+.option-box .colors-list li:nth-child(5)
+{
+    background-color:#279cca;
+    border-radius:20px
+
+}
+.title
+{
+    text-align: center;
+    background-color:var(--main--color) ;
+    margin-top: -16px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    color: #6a6a6a;
+}
