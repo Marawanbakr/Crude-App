@@ -35,13 +35,14 @@
 .option-box .colors-list li.active
 {
     border:2px solid rgb(126, 118, 120);
-    margin:5px 0 ;
+    margin: 19px 4px;
+    /* margin:5px 0 ; */
 }
 .option-box .colors-list li:first-child
 {
     background-color:#FF9800;
     border-radius:20px;
-    margin: 19px 4px;
+    /* margin: 19px 4px; */
 
 }
 .option-box .colors-list li:nth-child(2)
